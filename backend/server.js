@@ -11,7 +11,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://greencart-logistics-6zxl.vercel.app',
+  origin: process.env.FRONTEND_URL || 'https://greencart-logistics-chi.vercel.app/',
   credentials: true
 }));
 
